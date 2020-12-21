@@ -1,0 +1,19 @@
+{
+	"name": "Slither free food bot",
+	"version": "1.0",
+	"description": "Free food!",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://slither.io/"
+			],
+			"js": [
+				"contentscript.js"
+			]
+		}
+	],
+	"web_accessible_resources": [
+		"script.js"
+	],
+	"manifest_version": 2
+}
